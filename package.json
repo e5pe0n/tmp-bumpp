@@ -1,0 +1,17 @@
+{
+  "name": "tmp-bumpp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bumpp": "bumpp --no-tag --commit \"chore: bump version to v%s\" package.json README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "bumpp": "^10.2.3"
+  }
+}
